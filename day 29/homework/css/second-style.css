@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-image: url('../images/goa-image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+  width: 100%;
+  max-width: 1540px;
+  margin: 0px auto;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header h1 {
+  animation-name: headeranm;
+  animation-duration: 1.5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  color: rgb(34, 118, 34);
+}
+
+nav h1 {
+  font-size: 50px;
+  animation-name: headeranm;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  color: rgb(34, 118, 34);
+}
+
+nav {
+  display: flex;
+}
+
+nav img {
+  width: 60px;
+  margin-left: 15px;
+}
+
+.main-container {
+  width: 1500px;
+  height: 700px;
+  margin: 0px auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.image-div1 {
+  width: 400px;
+}
+
+.image-div1 img {
+  width: 100%;
+}
+
+.first-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.second-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  border-radius: 100px;
+}
+
+.paragraph-section p {
+  font-size: 20px;
+  color: red;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+.link-div a {
+  font-size: 22px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.icon-div {
+  font-size: 25px;
+  margin-left: 10px;
+  color: blue;
+}
+
+/* Header animation */
+
+@keyframes headeranm {
+  from {
+    font-size: 55px;
+  }
+
+  to {
+    color: greenyellow;
+  }
+}

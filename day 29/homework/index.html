@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <title>Registration | Form</title>
+  </head>
+  <body>
+    <main class="form-main-container">
+      <!-- Form main content-->
+      <h1>Registration Form</h1>
+      <form>
+        <main class="form-child-div">
+          <div class="firstname-div">
+            <label for="firstname">
+              <i class="fa-solid fa-circle-user"></i>
+            </label>
+            <input
+              type="text"
+              id="firstname"
+              name="firstname"
+              placeholder="Enter firstname"
+              required
+            />
+          </div>
+
+          <div class="lastname-div">
+            <label for="lastname">
+              <i class="fa-solid fa-circle-user"></i>
+            </label>
+            <input
+              type="text"
+              id="lastname"
+              name="lastname"
+              placeholder="Enter lastname"
+              required
+            />
+          </div>
+
+          <div class="email-div">
+            <label for="email">
+              <i class="fa-solid fa-envelope"></i>
+            </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter email"
+              required
+            />
+          </div>
+
+          <div class="password-div">
+            <label for="password">
+              <i class="fa-solid fa-key"></i>
+            </label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter password"
+              required
+              maxlength="8"
+            />
+          </div>
+          <div class="gender-div">
+            <label for="male">
+              <i class="fa-solid fa-person-dress"></i>
+            </label>
+            <input type="radio" id="male" name="gender" />
+
+            <label for="female">
+              <i class="fa-solid fa-person"></i>
+            </label>
+            <input type="radio" id="female" name="gender" required />
+          </div>
+          <div class="data-div">
+            <label for="date">
+              <i class="fa-solid fa-calendar-days"></i>
+            </label>
+            <input type="date" name="date" required />
+          </div>
+          <div class="images-div">
+            <label for="image">
+              <i class="fa-solid fa-images"></i>
+            </label>
+            <input type="file" id="image" name="image" required />
+          </div>
+          <div class="button-div">
+            <button type="submit">Sign up</button>
+          </div>
+        </main>
+      </form>
+      <div class="next-page">
+        <!-- Go to next page-->
+        <a href="./second.html" target="_blank">Go to next page</a>
+        <i id="page-icon" class="fa-solid fa-file-lines"></i>
+      </div>
+    </main>
+  </body>
+</html>
