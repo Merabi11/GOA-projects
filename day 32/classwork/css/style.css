@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.div-cotainer2 {
+  width: 700px;
+  height: 400px;
+  margin-top: 50px;
+  background-color: red;
+}
+
+.div-cotainer2 h1 {
+  text-align: center;
+  color: green;
+}
+
+.div-cotainer2 p {
+  text-align: center;
+  color: blue;
+}

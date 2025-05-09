@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: black;
+}
+
+table {
+  width: 900px;
+  font-size: 30px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-collapse: collapse;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: gray;
+}
+
+th {
+  text-align: left;
+  padding: 15px 20px;
+  color: #fff;
+  background-color: rgb(42, 121, 90);
+}
+
+td {
+  padding: 15px 20px;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+/* tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:nth-child(2) {
+  font-weight: bold;
+  color: #2e7d32;
+} */
