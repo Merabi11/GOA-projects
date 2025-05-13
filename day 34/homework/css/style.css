@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background: linear-gradient(90deg, #5409da, #8dd8ff, #4e71ff);
+}
+
+header {
+  max-width: 1540px;
+  margin: 0px auto;
+  padding: 20px 40px 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 5px 30px black;
+  background-color: #fff;
+}
+
+header h1 {
+  font-size: 45px;
+  cursor: pointer;
+  text-shadow: -8px 8px 15px navy;
+  color: navy;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+}
+
+ul a {
+  margin: 20px;
+  font-size: 28px;
+  text-decoration: none;
+  text-shadow: -8px 8px 15px navy;
+  color: navy;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  max-width: 1540px;
+  margin: 0px auto;
+  margin-top: 50px;
+}
+
+.text-div {
+  text-align: center;
+}
+
+.text-div h2 {
+  font-size: 50px;
+}
+
+.text-div p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.img-text-button-div {
+  margin-left: 50px;
+  display: flex;
+  margin-top: 100px;
+}
+
+.image {
+  width: 500px;
+}
+
+.image img {
+  width: 100%;
+  cursor: pointer;
+  box-shadow: 0px 0px 30px black;
+}
+
+.bitton-text-div {
+  width: 900px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.img-text-button-div p {
+  font-size: 25px;
+}
+
+.btn button {
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding: 10px 70px 10px 70px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.4s linear;
+  background-color: #5409da;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #5d97b7;
+}
+
+p::selection {
+  background-color: rgb(0, 155, 0);
+  color: rgb(12, 35, 12);
+}
+
+h1::selection {
+  background-color: rgb(0, 155, 0);
+  color: rgb(12, 35, 12);
+}
+
+h2::selection {
+  background-color: rgb(0, 155, 0);
+  color: rgb(12, 35, 12);
+}
+
+a::selection {
+  background-color: rgb(0, 155, 0);
+  color: rgb(12, 35, 12);
+}

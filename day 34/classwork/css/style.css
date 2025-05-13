@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.blue-div {
+  width: 500px;
+  height: 500px;
+  margin: 50px;
+  padding: 50px 0px 0px 50px;
+  box-shadow: 15px 20px 30px red;
+  border: 5px solid red;
+  background-color: navy;
+}
+
+.blue-div h1 {
+  text-decoration-style: dashed;
+  text-decoration-color: greenyellow;
+  text-decoration-line: underline;
+}
+
+/* content - არის ბლოკში მოთავსებულუ ტექსტი ან ნევბისმიერი რამ რაც შიგთავსში დევს  */
+/* bordre - ბორდერი არის საძღვარი რამდენიც არის ბოქსის ზომა ანუ მისი საზღვარი არის ბორდერი ყველა ბოქს აქ მისი საზღვარი */
+/* margin - მერჯინი არის ბოქსის დაშორება თვითონ თუ რამდენით არის მოშორებლი და რამდენი დაშორება ბოქს საიტის ნაწილისგან*/
+/* padding - პადინგი არის მაგ: ბოქში გვაქვს რაიმე ტექსტი ან რაიმე პარაგრაფი პადინგის საშვალებით თვითონ ბოქში შიგნითვე იქნება მოცილებული და დაშორებული ელემენტი */
