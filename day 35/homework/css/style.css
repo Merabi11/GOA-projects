@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #0b0b0b;
+}
+
+.card-container {
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.car-card-div1 {
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 30px #fff;
+  background-image: url('../images/Mercedes-Benz-CLS63-AMG-S-14.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.text1 {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.151);
+}
+
+.text1 p {
+  text-align: center;
+  font-size: 25px;
+  text-shadow: 5px 5px 40px red;
+  color: #fff;
+}
+
+.car-card-div2 {
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 30px #fff;
+  background-image: url('../images/Lamborghini-Urus-Mansory-3-optimized.webp');
+  background-position: center;
+  background-size: cover;
+}
+
+.text2 {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.151);
+}
+
+.text2 p {
+  text-align: center;
+  font-size: 22px;
+  text-shadow: 5px 5px 40px yellow;
+  color: black;
+}
+
+.car-card-div3 {
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+  border: 2px solid black;
+  box-shadow: 5px 5px 30px #fff;
+  background-image: url('../images/golf7.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.text3 {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.151);
+}
+
+.text3 p {
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 5px 5px 40px yellow;
+  color: black;
+}

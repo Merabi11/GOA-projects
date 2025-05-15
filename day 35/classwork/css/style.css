@@ -1,0 +1,51 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.car-card1 {
+  width: 500px;
+  height: 500px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 40px;
+  box-shadow: 15px 15px 40px black;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-image: url('../images/cls-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text-1 {
+  width: 100%;
+  height: 100%;
+  text-shadow: 8px 8px 10px #0b0b0b;
+}
+
+.list-container {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.unordered-div ul {
+  list-style-type: square;
+  font-size: 30px;
+}
+
+.ordered-div ol {
+  list-style-type: upper-roman;
+  font-size: 30px;
+}
+
+.ordered-div2 ol {
+  list-style-type: decimal-leading-zero;
+  font-size: 30px;
+}
