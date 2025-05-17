@@ -1,0 +1,33 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.div-container {
+  width: auto;
+  height: auto;
+  display: flex; /* მთავარ დივ კონტეინერს გავუწერე display: flex რადგან მასში ყველა ემენეტი განსავსებულიყო ჰორიოზონტალურად აერთმანეთის გვერდიგვერდ */
+  flex-wrap: wrap; /* რადგან მე მას ვუთხარი რომ ისინი უნდა ყოფილიყო ერთმანეთის გვერდიგვერდ ჰორიჰონტალურად ისინი ძალიან მიკრო ერთმანეთს ელემენტევის ზედმერად რაოდენობის გამო ამიტომ ვუთხარი რომ რაც ცდებოდა ჩამოსილიყო ახალ ხაზზე*/
+  background-color: navy;
+}
+
+.div-1 {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  display: flex; /*თითო დივში მაქვს ტექსტი და მინდოდა რომ ყოფილიყო ცენტრში ამიტომ გავუწერე ფლექსი*/
+  justify-content: center; /*ეს გადაიტანს ცენტრში ოღონდ ჰორიზონტალურად*/
+  align-items: center; /*ესკიდე ვერტიკალურად ცენტრში საბოლოო ჯამში იქნება ტექსტი ცენტში*/
+  font-size: 25px;
+  border-radius: 100%;
+  transition: all 0.3s linear;
+  color: #fff;
+  background-color: green;
+}
+
+.div-1:hover {
+  box-shadow: 0px 0px 40px red;
+  background-color: black;
+  color: #fff;
+}

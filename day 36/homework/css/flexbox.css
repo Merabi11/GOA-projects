@@ -1,0 +1,174 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.flexbox-main-container {
+  display: flex; /*მთავარ ბოქს გავუწერე ფლექსი რათა ყოფილიყო ერთმანეთის გვერდიგვერდ ჰორიზონტალურად*/
+  flex-direction: column; /*შემდეგ გავუწერე ქოლუმნ რათა ისინი ყოფილიყო ერთმანეთის გვერდიგვერდ ორი ბოხქსი მაქვს ერთ დივში ამიტომ რომ გამოსულიყო 2 ზემოთ 2 ქვემოთ*/
+  align-items: center; /*რადგან justify-content -არის x ღერძი და align-items -არის y ღერძი ქოლუმნი როცა გავუწერე ჯასტიფაიმ და ელაინმა გაცვალა ღერძები ამიტომ ელაინი უკვე ჰორიზონტალს აკონტროლებს და ვუთხარი რომ ყოფილიყო ელემენტები ცენტრში*/
+}
+
+.section-1 {
+  display: flex; /*პირგელ ბოქსში მოთავსებული ორი დიდი დივი მოვათავსე ჰორიზონტალურად აერთმანეთის გვერდიგვერდ*/
+}
+
+.section-2 {
+  display: flex; /*მეორე ბოქსში მოთავსებული ორი დიდი დივი მოვათავსე ჰორიზონტალურად აერთმანეთის გვერდიგვერდ*/
+}
+
+.section-3 {
+  display: flex; /*მესამე ბოქსში მოთავსებული ორი დიდი დივი მოვათავსე ჰორიზონტალურად აერთმანეთის გვერდიგვერდ*/
+}
+
+.flexbox-div-1 {
+  width: 750px;
+  height: 700px;
+  padding: 10px;
+
+  display: flex; /*პირგელ ბოქსში მოთავსებული პატარა კუბები მოვათავსე ჰორიზონტალურად აერთმანეთის გვერდიგვერდ*/
+  justify-content: center; /*ის გავცენტრე ჰორიზონტალურად */
+  align-items: center; /*ის გავცენტრე ასევე ვერტიკალურად რაც გამოვიდა ცენტრში */
+
+  border: 5px solid red;
+  background-color: black;
+}
+
+.item-1 {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+
+  display: flex; /*პატარა კუბებში მოთავსებული რიცხვები განვალაგე ჰორიზონტალურად*/
+  align-items: center; /*შემდეგ ჰორიზონტალურად ცენტრში გადავიტანე*/
+  justify-content: center; /*და ასევე ვერტიკალურად გავცენტრე რაც გამოვიდა ცენტრში*/
+
+  color: #fff;
+  background-color: navy;
+}
+
+.flexbox-div-2 {
+  width: 750px;
+  height: 700px;
+  padding: 10px;
+
+  display: flex; /*მეორე ბოქში მოთავსებული კუბები განვალაგე ჰორიზონტალურად*/
+  flex-direction: column; /*შემდეგ კი ვერტიკალურად ერთმანეთის ქვევით*/
+
+  border: 5px solid red;
+  background-color: black;
+}
+
+.item-2 {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+
+  display: flex; /*პატარა კუბებში მოთავსებული რიცხვები განვალაგე ჰორიზონტალურად*/
+  align-items: center; /*შემდეგ ჰორიზონტალურად ცენტრში გადავიტანე*/
+  justify-content: center; /*და ასევე ვერტიკალურად გავცენტრე რაც გამოვიდა ცენტრში*/
+
+  color: #fff;
+  background-color: navy;
+}
+
+.flexbox-div-3 {
+  width: 750px;
+  height: 700px;
+  padding: 10px;
+
+  display: flex; /*მესამე ბოქში მოთავსებული კუბები განვალაგე ჰორიზონტალურად*/
+  flex-direction: column-reverse; /*შემდეგ კი ვერტიკალურად ერთმანეთის ქვევით ოღონდ ამჯერად ჰორიზონტალი შებრუნდა უკუღმა*/
+
+  border: 5px solid red;
+  background-color: black;
+}
+
+.item-3 {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+
+  display: flex; /*პატარა კუბებში მოთავსებული რიცხვები განვალაგე ჰორიზონტალურად*/
+  align-items: center; /*შემდეგ ჰორიზონტალურად ცენტრში გადავიტანე*/
+  justify-content: center; /*და ასევე ვერტიკალურად გავცენტრე რაც გამოვიდა ცენტრში*/
+
+  color: #fff;
+  background-color: navy;
+}
+
+.flexbox-div-4 {
+  width: 750px;
+  height: 700px;
+  padding: 10px;
+
+  display: flex; /*მეოთხე ბოქში მოთავსებული კუბები განვალაგე ჰორიზონტალურად*/
+  flex-wrap: wrap; /*ამ კონკრეტულ ბოქში მქონდა ზედმეტად ბევრი კუბები ამიტომ ისინი ძალიან ჩაიჭუჭყა მე მას გავუწერე ვრაპი და რაც არ ეტეოდა ჩამოვიდა ახალ ხაზზე და უკვე ისნი არეჭუჭყებიან ერთმანეთს*/
+
+  border: 5px solid red;
+  background-color: black;
+}
+
+.item-4 {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+
+  display: flex; /*მეოთხე ბოქში მოთავსებული კუბები განვალაგე ჰორიზონტალურად*/
+  align-items: center; /*შემდეგ ჰორიზონტალურად ცენტრში გადავიტანე*/
+  justify-content: center; /*და ასევე ვერტიკალურად გავცენტრე რაც გამოვიდა ცენტრში*/
+
+  color: #fff;
+  background-color: navy;
+}
+
+.flexbox-div-5 {
+  width: 750px;
+  height: 700px;
+  padding: 10px;
+
+  display: flex; /*მეხუთე ბოქში მოთავსებული კუბები განვალაგე ჰორიზონტალურად*/
+  flex-direction: row; /*ჩვეულებრივ ელემენტები არის ჰორიზონტალურად განლაგებული*/
+
+  border: 5px solid red;
+  background-color: black;
+}
+
+.item-5 {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+
+  display: flex; /*მეხუთე ბოქში მოთავსებული კუბები განვალაგე ჰორიზონტალურად*/
+  align-items: center; /*შემდეგ ჰორიზონტალურად ცენტრში გადავიტანე*/
+  justify-content: center; /*და ასევე ვერტიკალურად გავცენტრე რაც გამოვიდა ცენტრში*/
+
+  color: #fff;
+  background-color: navy;
+}
+
+.flexbox-div-6 {
+  width: 750px;
+  height: 700px;
+  padding: 10px;
+
+  display: flex; /*მექვსე ბოქში მოთავსებული კუბები განვალაგე ჰორიზონტალურად*/
+  flex-direction: row-reverse; /*კუბები არის ჰორიზონტალურად ოღონდ შებრუნებულად უკურმა ღერძი შეტრიალდა*/
+
+  border: 5px solid red;
+  background-color: black;
+}
+
+.item-6 {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+
+  display: flex; /*მეექვსე ბოქში მოთავსებული კუბები განვალაგე ჰორიზონტალურად*/
+  align-items: center; /*შემდეგ ჰორიზონტალურად ცენტრში გადავიტანე*/
+  justify-content: center; /*და ასევე ვერტიკალურად გავცენტრე რაც გამოვიდა ცენტრში*/
+
+  color: #fff;
+  background-color: navy;
+}
