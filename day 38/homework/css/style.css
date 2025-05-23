@@ -1,0 +1,168 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 200vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d5d5d5;
+}
+
+.card-container {
+  width: 800px;
+  height: 850px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.card-first-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-1 {
+  width: 250px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.img-div {
+  width: 100%;
+  height: 170px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.img-div img {
+  width: 100%;
+  height: 100%;
+}
+
+.text-1 {
+  padding: 15px 0px 20px 10px;
+}
+
+.text-1 h2 {
+  color: #5409da;
+}
+
+.text-1 p {
+  margin-top: 10px;
+}
+
+/* card 2 */
+
+.card-2 {
+  width: 250px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.img-div-2 {
+  width: 100%;
+  height: 170px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.img-div-2 img {
+  width: 100%;
+  height: 100%;
+}
+
+.text-2 {
+  padding: 15px 0px 20px 10px;
+}
+
+.text-2 h2 {
+  color: #5409da;
+}
+
+.text-2 p {
+  margin-top: 10px;
+}
+
+/* card 3 */
+
+.card-3 {
+  width: 250px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.img-div-3 {
+  width: 100%;
+  height: 170px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.img-div-3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.text-3 {
+  padding: 15px 0px 20px 10px;
+}
+
+.text-3 h2 {
+  color: #5409da;
+}
+
+.text-3 p {
+  margin-top: 10px;
+}
+
+/* card 4 */
+
+.card-second-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-4 {
+  width: 250px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.img-div-4 {
+  width: 100%;
+  height: 180px;
+}
+
+.img-div-4 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.text-4 {
+  height: 230px;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text-4 h2 {
+  color: #5409da;
+}
+
+.text-4 button {
+  width: max-content;
+  border: none;
+  padding: 10px 40px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #129990;
+}
