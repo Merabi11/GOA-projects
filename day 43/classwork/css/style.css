@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap'); /* ვაიმპორტებთ ფონტს რის შედეგადაც შეგვეძლება ფონტის დაყენება*/
+
+* {
+  /* სტრუქტურაში ყველაფერს ვუნულებთ მარჯინებს და პადინგებს და ავტომატურად გამოთვლის ზომებს ბორდერ ბოქსის საშვალრბით და შემოტანილო გვქვს ასევე ფონტი*/
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Karla', sans-serif;
+}
+
+body {
+  height: 100vh; /*სიმაღლეში იქნება ერთი მთელი ეკრანის ზომა*/
+  display: flex; /*ელემენტები იქნება ჰოროზონტალურად*/
+  flex-direction: column; /*ელემენტები განლაგდება ვერტიკალურად*/
+  justify-content: center; /*ვერტიკალურად გაიცენტრება შუაში*/
+  align-items: center; /*ჰორიზონტალურად გაიცენტრება*/
+  background-color: hsl(204, 43%, 93%); /*უკანა ფონი იქბება თეთრი*/
+}
+
+.mainDiv {
+  border-radius: 5px; /*ბორდერ რადიუსი კუთხეების მომრგვალება იქნება 5 საზომ ერთეულში*/
+  overflow: hidden; /*რაც მშორებლს ცდება ის დაიმალოს*/
+}
+
+.firstDiv {
+  background-color: white; /*უკანა ფონი იქბება თეთრი*/
+  height: 200px; /* სიმაღლეში იქნება 200 საზომ ერთეული*/
+  padding: 30px; /*კონტეინერის შიგნითა სიცარიელე იქნება 30 საზომ ეთეულში*/
+}
+
+.paragraph1 {
+  color: #26a8a6;
+  font-weight: 700; /*ფონტის სისქე იქნება 700*/
+  font-size: 18px; /*ფონტის ზომა იქნება 18 საზომ ერთეულში*/
+  margin-bottom: 25px; /*ქვედა დაშორება ექნება 25*/
+}
+
+.paragraph2 {
+  color: #bedf31;
+  font-weight: 500; /*ფონტის სისქე იქნება 500*/
+  margin-bottom: 15px; /*ქვედა დაშორება ექნება 15*/
+}
+
+.paragraph3 {
+  color: hsl(218, 22%, 67%);
+}
+
+.twoDivsTogether {
+  display: flex; /*ელემენტები იქნება ჰოროზონტალურად*/
+  flex-direction: row; /*ელემენტები იქნება ჰოროზონტალურად*/
+}
+
+.first {
+  background-color: #2bb4b1;
+  /* display: flex;
+    flex-direction: column; */
+  padding: 30px; /*კონტეინერის შიგნითა სიცარიელე იქნება 30 საზომ ეთეულში*/
+  width: 50%; /*სიგანე იქნება 50% ანუ მშობლის ნახევარს დაიკავებს*/
+}
+
+.paragraph4 {
+  color: white;
+  font-weight: 700; /*ფონტის სისქე იქნება 700*/
+  margin-bottom: 15px; /*ქვედა დაშორება ექნება 15*/
+}
+
+h2 {
+  color: white;
+  margin-bottom: 10px; /*ქვედა დაშორება ექნება 15*/
+}
+
+h2 span {
+  color: hsl(179, 61%, 52%);
+  font-size: 14px; /*ფონტის ზომა იქნება 14 საზომ ერთეულში*/
+  vertical-align: middle; /*ვერტიკალურად იქნება შუაში ელემენტი*/
+}
+
+.paragraph5 {
+  color: white;
+  font-size: 14px; /*ფონტის ზომა იქნება 14 საზომ ერთეულში*/
+  margin-bottom: 25px; /*ქვედა დაშორება ექნება 25*/
+}
+
+button {
+  background-color: #bedf31;
+  border: none; /*ბორდერი გაუქრება*/
+  width: 100%; /*სიგანე იქნება 100% ანუ მშობლის მთელ სიგანეს*/
+  padding: 13px; /*კონტეინერის შიგნითა სიცარიელე იქნება 13 საზომ ეთეულში*/
+  border-radius: 5px; /*ბორდერ რადიუსი კუთხეების მომრგვალება იქნება 5 საზომ ერთეულში*/
+  color: white;
+  font-weight: 700; /*ფონტის სისქე იქნება 700*/
+}
+
+.second {
+  background-color: #49bebd;
+  padding: 30px; /*კონტეინერის შიგნითა სიცარიელე იქნება 30 საზომ ეთეულში*/
+  width: 50%; /*სიგანე იქნება 50% ანუ მშობლის ნახევარს დაიკავებს*/
+}
+
+.paragraph6 {
+  color: hsl(204, 43%, 93%);
+  font-size: 14px; /*ფონტის ზომა იქნება 14*/
+  margin-bottom: 3px; /*ქვედა დაშორება ექნება 3*/
+}
