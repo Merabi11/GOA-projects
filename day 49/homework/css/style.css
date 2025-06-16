@@ -1,0 +1,99 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  width: 1600px;
+  height: 500px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px 30px;
+}
+
+h1 {
+  font-size: 45px;
+  text-shadow: 5px 15px 8px #0b0b0b;
+}
+
+section {
+  width: 150px;
+  height: 150px;
+  transition: all 0.5s linear; /* transition- აუცილებლად უნდა გაეწეროს ელემენტს რადან ვუთხრათ რომ მოქმედებები როგორი ტიპის იყოს რამდენის ხნის განმრავლობაში მოხდეს და როგორი სისწრაფით მოხდეს პირველი უნდა გადავცეთ თუ რაზე განხორციელდეს ანიმაცია შემდეგ რამდენი ხნის მანძილდე გრძელდებოდეს ეს ანიმაცია და შემდეგ როგორი სისწრაფით გრძელდებოდეს ეს ანიმაცია სწრაფად, ჯერ ნელა მერე აჩქარდეს და ასე შემდეგ... */
+  border: 2px solid black;
+  background: linear-gradient(to bottom right, black, #ffffff, #0b0b0b);
+}
+
+.section-1:hover {
+  transform: translate(
+    50px,
+    100px
+  ); /* transform- საშვალებით ჩვენ შეგვიძლია ელემენტი ვამოძრაით ჰორიზონტალურად ასევე ვერტიკალურად ასევე შეგვიძლია ემენეტი გავადიდოთ იმ მასზე ორჯერ დიდ ზომაზე კიდევ შეგვიძლია ელენტი დავატრიალოთ 360 გრადუსით 90გრადუსით და ასე შემდეგ.. */
+}
+
+.section-2:hover {
+  transform: translate(
+    -50px,
+    100px
+  ); /* ელემენტი წავა მარცხნივ რადგან უწერია -50 ანუ საპირისპოროდ და მეორე ბრძანებით ქვემოთ მას გადაეცემა ორი ბრძანება ჰორიზონტალური და ვერტიკალური */
+}
+
+.section-3:hover {
+  transform: translate(50px, -100px);
+}
+
+.section-4:hover {
+  transform: scale(
+    1.5
+  ); /* scale(1.5) - საშვალებით ელემენტი გაიზრდება 1.5-ით ანუ მის ზომაზე ნახევრით დიდი */
+}
+
+.section-5:hover {
+  transform: rotate(
+    360deg
+  ); /* rotate(360deg) - ელემეტი დატრიალდება 360 გრადუსით */
+}
+
+.section-6:hover {
+  transform: rotate(180deg);
+  transform-origin: left top; /* ელემენტი გადაბრუნდება მარცხვინ ჯერ და შემდეგ ზემოთ ანუ შემობრუნდება მარცხნიდან ზემოთ 180 გრადუსით*/
+}
+
+.section-7 {
+  border-radius: 50%;
+}
+
+.section-7:hover {
+  transform: scale(1.5);
+  border-radius: 0px;
+}
+
+.section-transform {
+  transform: translate(50px, 50px); /* აქ ვაერთიანებთ X და Y ღერძზე მოძრაობას */
+
+  transform: translateX(50px); /* აქ კი ვწერთ კონრეტულ ღერძს ჰორიზონტალურს*/
+
+  transform: translateY(
+    50px
+  ); /* აქაც იგივე ნაირად ვწერთ კონკრეტულ ღერძს ანუ ვერტიკალურს*/
+
+  transform: scale(
+    1.5
+  ); /* აქ ვწერთ ელემენტი რამდენით გაიზარდოს მის ზომაზე დიდი იყოს თუ პატარა თუ პატარა გვინდა 0.5 თუ დიდი 1.5 მისი დეფოლტ ზომა არის 1 თუ დიდი გვინდა ვწერთ 1-ზე მეტს თუ პატარა 1-ზე ნაკლებს*/
+
+  transform: rotate(
+    360deg
+  ); /* რამდენ გრადუსით დატრიალდეს ელემენტი აქ ვუთითებთ აქ წერია რომ 360 გრადუსით დატრიალდეს ელემენტი ანკიდე სასურველ გრდუს დავუწერთ */
+
+  transform-origin: right top; /* ამის საშვალებით კი სასურველ მიმართულებით გადავხრით ელემენტს მარჯვინ ზემოთ ან მარცნივ ზემოთ და ასე შემდეგ */
+}
