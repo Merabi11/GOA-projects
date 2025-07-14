@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <!-- Document არის HTML-ის მთლიანი სტრუქტურა რომ წარმოვიდგინოთ ხე ის წარმოადგენს HTML მთლიან სტრუქტურას რასაც ჩვენ მივწვდებით javascript-->
+    <!-- ჩვენ შეგვიძლია ელემენტების შიგთავში შევცვალოთ ასევე კლასები შევუცვალოთ აიდები თეგები ჩავანაცვლოთ სხვა თეგებით და ბევრი მანუპულირების მოხდება შევლიძლია -->
+
+    <p>Hello World</p>
+
+    <script>
+      let paragraph = document.body.children[0];
+      paragraph.textContent = 'Hello';
+      paragraph.style.color = 'red';
+      paragraph.style.backgroundColor = 'blue';
+      paragraph.className = 'firstP';
+      paragraph.id = 'secondP';
+
+      console.dir(document);
+    </script>
+  </body>
+</html>
