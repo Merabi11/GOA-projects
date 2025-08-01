@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="form-container">
+        <form>
+          <div class="input-label-container">
+            <div class="input-1">
+              <label for="dayinput">DAY</label>
+              <input type="text" id="dayinput" placeholder="DD" />
+              <p id="error-1"></p>
+            </div>
+
+            <div class="input-1">
+              <label for="monthinput">MONTH</label>
+              <input type="text" id="monthinput" placeholder="MM" />
+              <p id="error-2"></p>
+            </div>
+
+            <div class="input-1">
+              <label for="yearinput">YEAR</label>
+              <input type="text" id="yearinput" placeholder="YYYY" />
+              <p id="error-3"></p>
+            </div>
+          </div>
+
+          <div class="button-div">
+            <div class="center-line"></div>
+            <button type="submit" id="btn">
+              <img src="./img/icon-arrow.svg" alt="" />
+            </button>
+          </div>
+        </form>
+
+        <div class="date-div">
+          <h2><span id="outputyear">--</span> YEAR</h2>
+          <h2><span id="outputmonth">--</span> MONTH</h2>
+          <h2><span id="outputday">--</span> DAYS</h2>
+        </div>
+      </div>
+    </main>
+
+    <script src="./js/second.js"></script>
+  </body>
+</html>
