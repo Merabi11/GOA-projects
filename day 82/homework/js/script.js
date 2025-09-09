@@ -1,15 +1,26 @@
-const mathFunction = require('./math.utils');
-const stringMethods = require('./string.methods');
+const {
+  addition,
+  subtraction,
+  multiplication,
+  division,
+} = require('./math.utils');
 
-console.log(mathFunction.addition(5, 5));
-console.log(mathFunction.subtraction(10, 5));
-console.log(mathFunction.multiplication(8, 2));
-console.log(mathFunction.division(100, 2));
+const {
+  firstUpperString,
+  reverseString,
+  upperCaseString,
+  toLowerCaseString,
+} = require('./string.methods');
 
-console.log(stringMethods.firstUpperString('merabi'));
-console.log(stringMethods.reverseString('lika'));
-console.log(stringMethods.upperCaseString('luka'));
-console.log(stringMethods.toLowerCaseString('biks'));
+console.log(addition(5, 5));
+console.log(subtraction(10, 5));
+console.log(multiplication(8, 2));
+console.log(division(100, 2));
+
+console.log(firstUpperString('merabi'));
+console.log(reverseString('lika'));
+console.log(upperCaseString('luka'));
+console.log(toLowerCaseString('BIKS'));
 
 // npm - რო განვავროცოთ არის (Node Package Manager)
 // npm - არის სპეციალურად JavaScript, Node.js - ისთვის
